@@ -54,8 +54,8 @@
     <div class="max-w-4xl m-auto">
       <div class="p-3">
         <div class="block pt-5">
-          <a href="https://concordcrm.com">
-          	<img src="https://concordcrm.com/images/logo/logo.png" />
+          <a href="https://www.concordcrm.com">
+          	<img src="https://www.concordcrm.com/images/logo/logo.png" />
           </a>
         </div>
 
@@ -63,11 +63,11 @@
           Concord CRM Requirements Checker
         </h1>
 
-		<p class="mb-10">
-			<a class="text-indigo-600 hover:text-indigo-800" href="https://concordcrm.com/docs/latest.html">
-				Documentation
-			</a>
-		</p>
+    		<p class="mb-10">
+    			<a class="text-indigo-600 hover:text-indigo-800" href="https://www.concordcrm.com/docs">
+    				Documentation
+    			</a>
+    		</p>
 
         <?php if (isset($requirements['errors']) && $requirements['errors'] === true || $php['supported'] === false) { ?>
         <div class="text-red-500 p-4 bg-red-50 border border-red-200 mb-8 mt-3 rounded-md text-sm">
