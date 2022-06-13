@@ -26,6 +26,7 @@ return [
 
         'functions' => [
             'symlink',
+            'proc_open',
         ],
 
         'recommended' => [
