@@ -28,6 +28,10 @@ return [
             'symlink',
             'proc_open',
             'proc_close',
+            'tmpfile',
+            'ignore_user_abort',
+            'fpassthru',
+            'highlight_file',
         ],
 
         'recommended' => [
