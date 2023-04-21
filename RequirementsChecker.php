@@ -32,6 +32,7 @@ class RequirementsChecker
             ],
             'recommended' => [
                 'php' => [],
+                'functions' => [],
             ],
             'error' => false,
         ];
@@ -81,6 +82,7 @@ class RequirementsChecker
                     break;
                 case 'recommended':
                     $results['recommended']['php'] = $this->checkPHPRequirements($requirements[$type]['php']);
+                    $results['recommended']['functions'] = $this->checkPHPFunctions($requirements[$type]['functions']);
 
                 break;
             }

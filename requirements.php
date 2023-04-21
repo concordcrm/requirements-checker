@@ -26,8 +26,6 @@ return [
 
         'functions' => [
             'symlink',
-            'proc_open',
-            'proc_close',
             'tmpfile',
             'ignore_user_abort',
             'fpassthru',
@@ -39,6 +37,11 @@ return [
                 'imap',
                 'zip',
             ],
+
+            'functions'=>[
+                'proc_open',
+                'proc_close',
+            ]
         ],
     ],
 ];
