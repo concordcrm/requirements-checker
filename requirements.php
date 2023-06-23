@@ -27,6 +27,7 @@ return [
         'functions' => [
             'symlink',
             'tmpfile',
+            'file', // dompdf
             'ignore_user_abort',
             'fpassthru',
             'highlight_file',
