@@ -42,6 +42,8 @@ return [
             'functions'=>[
                 'proc_open',
                 'proc_close',
+                'proc_get_status',
+                'proc_terminate',
             ]
         ],
     ],
